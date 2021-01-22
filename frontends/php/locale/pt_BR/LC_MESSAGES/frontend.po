@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Zabbix 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 19:50+0300\n"
-"PO-Revision-Date: 2018-11-30 13:51+0300\n"
-"Last-Translator: Adail <the.spaww@gmail.com>\n"
+"PO-Revision-Date: 2021-01-22 17:22+0300\n"
+"Last-Translator: Marlon <Marlon@outlook.com>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Poedit-Basepath: ../../\n"
-"X-POOTLE-MTIME: 1543578716.000000\n"
+"X-POOTLE-MTIME: 1611328951.000000\n"
 
 #: include/classes/import/validators/C10XmlValidator.php:358
 #: include/classes/import/validators/C10XmlValidator.php:375
@@ -3023,7 +3023,7 @@ msgstr "Configuração de protótipos de trigger"
 
 #: adm.triggerseverities.php:24
 msgid "Configuration of trigger severities"
-msgstr "Configuração de severidades de trigger"
+msgstr "Configuração de severidades da trigger"
 
 #: triggers.php:27
 msgid "Configuration of triggers"
@@ -3443,7 +3443,7 @@ msgstr "Script personalizado"
 
 #: include/views/administration.general.triggerSeverity.edit.php:75
 msgid "Custom severity names affect all locales and require manual translation!"
-msgstr "Nomes customizados de severidade afetam todas as traduções e requerem tradução manual!"
+msgstr "Nomes customizados de severidades afetam todas as traduções e requerem tradução manual!"
 
 #: include/views/js/monitoring.sysmaps.js.php:36
 msgid "Custom size"
@@ -7062,7 +7062,7 @@ msgstr "A ação possui condição incorreta: template. O template não existe o
 
 #: include/classes/validators/CActionCondValidator.php:168
 msgid "Incorrect action condition trigger severity."
-msgstr "A ação possui condição de severidade de trigger incorreta."
+msgstr "A ação possui condição de gravidade de trigger incorreta."
 
 #: include/classes/validators/CActionCondValidator.php:177
 msgid "Incorrect action condition trigger value."
@@ -8688,7 +8688,7 @@ msgstr "Idioma"
 #: include/classes/api/services/CUser.php:277
 #, c-format
 msgid "Language \"%1$s\" is not supported."
-msgstr ""
+msgstr "Idioma \"%1$s\" não é suportado."
 
 #: include/forms.inc.php:1889 include/maintenances.inc.php:115
 msgid "Last"
@@ -9476,7 +9476,7 @@ msgstr "O tamanho mínimo requerido para o POST PHP é %s (opção de configura�
 
 #: app/views/monitoring.map.view.php:36
 msgid "Minimum severity"
-msgstr "Severidade mínima"
+msgstr "Gravidade mínima"
 
 #: include/classes/screens/CScreenBase.php:474 include/graphs.inc.php:408
 #, c-format
@@ -9488,7 +9488,7 @@ msgstr[1] "Período mínimo para apresentação são %1$s minutos."
 #: include/views/common.filter.trigger.php:72
 #: include/views/monitoring.sysmap.edit.php:222
 msgid "Minimum trigger severity"
-msgstr "Severidade mínima da trigger"
+msgstr "Gravidade mínima da trigger"
 
 #: include/forms.inc.php:1997
 msgid "Minutes"
@@ -12787,11 +12787,11 @@ msgstr "Defina o modo de inventário de host"
 #: include/views/reports.toptriggers.php:120 popup.php:1032 tr_logform.php:371
 #: tr_status.php:275
 msgid "Severity"
-msgstr "Severidade"
+msgstr "Gravidade"
 
 #: include/views/monitoring.screen.constructor.edit.php:442
 msgid "Severity (descending)"
-msgstr "Severidade (descedente)"
+msgstr "Gravidade (descedente)"
 
 #: include/views/monitoring.screen.edit.php:208
 #: include/views/monitoring.slideconf.edit.php:256
@@ -14100,11 +14100,11 @@ msgstr "Protótipos de trigger atualizados"
 #: include/views/administration.general.triggerSeverity.edit.php:25
 #: include/views/administration.general.triggerSeverity.edit.php:80
 msgid "Trigger severities"
-msgstr "Severidades de trigger"
+msgstr "Gravidades da trigger"
 
 #: include/actions.inc.php:42 include/views/administration.users.edit.php:362
 msgid "Trigger severity"
-msgstr "Severidade da trigger"
+msgstr "Gravidade da trigger"
 
 #: jsLoader.php:194
 msgid "Trigger status \"OK\""
@@ -14173,7 +14173,7 @@ msgstr "Top 100 de triggers"
 
 #: include/views/monitoring.dashconf.php:105
 msgid "Triggers with severity"
-msgstr "Triggers com severidade"
+msgstr "Triggers com gravidade"
 
 #: queue.php:289
 msgid "Truncated"
@@ -14770,7 +14770,7 @@ msgstr "Usar multiplicador customizado"
 
 #: include/views/administration.users.edit.php:201 popup_media.php:136
 msgid "Use if severity"
-msgstr "Usar se severidade"
+msgstr "Usar se gravidade"
 
 #: app/views/administration.mediatype.list.php:46
 msgid "Used in actions"
@@ -16192,7 +16192,7 @@ msgstr "forecast() - Previsão para os próximos t segundos a partir de um perí
 
 #: popup_trexpr.php:286
 msgid "fuzzytime() - Difference between item value (as timestamp) and Zabbix server timestamp is less than or equal to T seconds (1 - true, 0 - false)"
-msgstr ""
+msgstr "fuzzytime() - Diferença entre o valor do item (como timestamp) e do timestamp do servidor Zabbix é menor ou igual a T segundos (1 - verdadeiro, 0 - falso)"
 
 #: include/views/configuration.item.edit.php:331
 #: include/views/configuration.item.edit.php:336
@@ -16291,7 +16291,7 @@ msgstr "logeventid() - ID de evento da última entrada de log correspondente com
 
 #: popup_trexpr.php:310
 msgid "logseverity() - Log severity of the last log entry"
-msgstr "logseverity() - Severidade de log na última entrada"
+msgstr "logseverity() - Gravidade de log na última entrada"
 
 #: popup_trexpr.php:315
 msgid "logsource() - Log source of the last log entry matching parameter T (1 - match, 0 - no match)"
